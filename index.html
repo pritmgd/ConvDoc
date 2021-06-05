@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>CONV DEV</title>
+
+    <!-- css local -->
+    <link href="css/stilos.css" rel="stylesheet">
+    <!-- css Bootstrap  -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <!--cabecalho  -->  
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <!-- nome da classe alterada "navba e nao navbar" para nao pegar conf do css bootstrap -->
+          <a class="navba-brand" href="#">ConvDEv</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-outline-success" >PDF TO DOCX</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-outline-success" >PDF TO JPG</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-outline-success" >DOCX TO PDF</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-outline-success" >DOCX TO XML</button></a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+   <div class="container-md">
+      <hr>
+      </br>
+      <div class="container-sm">
+        <div class="titulo-body">
+          <center>Selecione o arquivo</center>
+        </div>
+          <div class="input-group">
+            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+            <button class="btn1 btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+            
+          </div>
+      
+      </div>
+      <hr>
+      </br>
+    </div>
+
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
